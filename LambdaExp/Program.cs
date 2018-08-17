@@ -37,7 +37,10 @@ namespace LambdaExp
             // doing the same with a lambda function
             List<KeyValuePair<string, int>> newList_2 = new List<KeyValuePair<string, int>>();
             newList_2 = list.Where(x => x.Key.Split(' ')[0] == "Joe").ToList<KeyValuePair<string, int>>();
-            Console.WriteLine(newList_2[0]);
+
+            // pick rows in list with id > 5
+            List<KeyValuePair<string, int>> newList_3 = new List<KeyValuePair<string, int>>();
+            newList_3 = list.Where(x => x.Value > 5).ToList<KeyValuePair<string, int>>();
         }
     }
 }
