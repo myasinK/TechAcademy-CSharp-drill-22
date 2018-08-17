@@ -1,0 +1,7 @@
+C:\Users\Yasin\TechAcademy\vs-tour\LambdaExp\LambdaExp\bin\Debug\LambdaExp.exe.config
+C:\Users\Yasin\TechAcademy\vs-tour\LambdaExp\LambdaExp\bin\Debug\LambdaExp.exe
+C:\Users\Yasin\TechAcademy\vs-tour\LambdaExp\LambdaExp\bin\Debug\LambdaExp.pdb
+C:\Users\Yasin\TechAcademy\vs-tour\LambdaExp\LambdaExp\obj\Debug\LambdaExp.csprojAssemblyReference.cache
+C:\Users\Yasin\TechAcademy\vs-tour\LambdaExp\LambdaExp\obj\Debug\LambdaExp.csproj.CoreCompileInputs.cache
+C:\Users\Yasin\TechAcademy\vs-tour\LambdaExp\LambdaExp\obj\Debug\LambdaExp.exe
+C:\Users\Yasin\TechAcademy\vs-tour\LambdaExp\LambdaExp\obj\Debug\LambdaExp.pdb
