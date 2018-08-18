@@ -37,10 +37,20 @@ namespace LambdaExp
             // doing the same with a lambda function
             List<KeyValuePair<string, int>> newList_2 = new List<KeyValuePair<string, int>>();
             newList_2 = list.Where(x => x.Key.Split(' ')[0] == "Joe").ToList<KeyValuePair<string, int>>();
+            Console.WriteLine("All Joes in the list:");
+            foreach (KeyValuePair<string, int> employee in newList_2)
+            {
+                Console.WriteLine(employee);
+            }
 
             // pick rows in list with id > 5
             List<KeyValuePair<string, int>> newList_3 = new List<KeyValuePair<string, int>>();
             newList_3 = list.Where(x => x.Value > 5).ToList<KeyValuePair<string, int>>();
+            Console.WriteLine("\nEmployees with ID>5:");
+            foreach (KeyValuePair<string, int> employee in newList_3)
+            {                
+                Console.WriteLine(employee);
+            }
         }
     }
 }
